@@ -1,0 +1,18 @@
+.card-back {
+  background-color: #fff;
+  box-shadow: 1px 3px 3px 3px grey;
+  border-radius: 20px;
+}
+
+.agrupar {
+  margin: 20px;
+  padding: 20px;
+}
+
+.form-actions {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+}
+
+

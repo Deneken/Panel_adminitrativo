@@ -1,0 +1,42 @@
+<div class="card-back">
+  <div class="agrupar">
+    <h2 class="titulo">Modificar Trabajador</h2>
+    <div>
+      <p class="">N°: 1 de solicitud</p>
+    </div>
+
+    <form class="">
+      <div class="form-group">
+        <label for="nombre">Modificar Nombre:</label>
+        <input id="nombre" type="text" name="nombre" class="form-control" placeholder="Oink" />
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Modificar Apellido:</label>
+        <input
+          id="apellido"
+          type="text"
+          name="apellido"
+          class="form-control"
+          placeholder="Santiago"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="correo">Modificar Correo:</label>
+        <input
+          id="correo"
+          type="email"
+          name="correo"
+          class="form-control"
+          placeholder="ejemplo@gmail.com"
+        />
+      </div>
+
+      <div class="form-actions mt-2 d-flex">
+        <button type="button" class="btn btn-primary me-2">Guardar</button>
+        <button type="button" class="btn btn-secondary" (click)="close()">Cerrar</button>
+      </div>
+    </form>
+  </div>
+</div>

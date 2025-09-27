@@ -1,0 +1,39 @@
+<div class="card-back">
+  <div class="agrupar">
+    <h2 class="titulo">Agregar Trabajador</h2>
+
+    <form class="">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" name="nombre" class="form-control" placeholder="Oink" />
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellido:</label>
+        <input
+          id="apellido"
+          type="text"
+          name="apellido"
+          class="form-control"
+          placeholder="Santiago"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input
+          id="correo"
+          type="email"
+          name="correo"
+          class="form-control"
+          placeholder="ejemplo@gmail.com"
+        />
+      </div>
+
+      <div class="form-actions mt-2 d-flex">
+        <button type="button" class="btn btn-primary me-2">Guardar</button>
+        <button type="button" class="btn btn-secondary" (click)="close()">Cerrar</button>
+      </div>
+    </form>
+  </div>
+</div>
